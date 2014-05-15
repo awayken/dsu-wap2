@@ -1,0 +1,262 @@
+<html>
+	<head>
+		<title>Applebee Bookstore</title>
+	</head>
+	<body text="#003366">
+		<form name="form" ID="Form1">
+
+			<table align="center" border="0" width="500" cellspacing="0" cellpadding="5" ID="Table1" style="POSITION: static" runat="server">
+				<tr>
+					<td colspan="2">
+						<h1 align="center">Applebee Bookstore</h1>
+						<p align="center">
+							<img border="0" src="images/bookshelf.gif" width="157" height="145">
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<h2 align="center">Customer Feedback Form</h2>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><font face="Trebuchet MS">Please let us know how our sales department 
+							can help you.</font></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input name="hiddenID" type="hidden" value="1234" ID="Hidden1" runat="server">
+						<p><strong><font face="Trebuchet MS">What about us do you want to comment on?</font></strong></p>
+						<font face="Trebuchet MS"><input type="text" size="43" maxlength="256" name="txtComment" ID="Text1" runat="server"></font>
+						<P><STRONG><FONT face="Trebuchet MS">How did you hear about our website?</FONT></STRONG>
+						</P>
+						<font face="Trebuchet MS">
+							<select name="lstSource" size="1" ID="Select1" runat="server">
+								<option value="Yahoo">Yahoo</option>
+								<option value="Company">Commercial</option>
+								<option value="Magazine">Magazine</option>
+								<option value="Email">Email</option>
+								<option value="Friend">Friend</option>
+								<option selected value="Other">(Other)</option>
+							</select></font>
+						<p><strong><font face="Trebuchet MS">Contact Information</font></strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td height="25" style="WIDTH: 108px" align="right"><font face="Trebuchet MS">Name</font></td>
+					<td height="25"><input type="text" size="35" maxlength="256" name="txtName" ID="Text2" runat="server"></td>
+				</tr>
+				<tr>
+					<td height="31" style="WIDTH: 108px; HEIGHT: 31px" align="right"><font face="Trebuchet MS">E-Mail</font></td>
+					<td height="31" style="HEIGHT: 31px"><input type="text" size="35" maxlength="256" name="txtEmail" ID="Text3" runat="server"></td>
+				</tr>
+				<tr>
+					<td height="25" style="WIDTH: 108px" align="right"><font face="Trebuchet MS">Address</font></td>
+					<td height="25"><input type="text" size="35" maxlength="256" name="txtStreet" ID="Text4" runat="server"></td>
+				</tr>
+				<tr>
+					<td height="31" style="WIDTH: 108px" align="right"><font face="Trebuchet MS">City</font></td>
+					<td height="31"><input type="text" size="35" maxlength="256" name="txtCity" ID="Text5" runat="server"></td>
+				</tr>
+				<tr>
+					<td height="25" style="WIDTH: 108px" align="right"><font face="Trebuchet MS">State</font></td>
+					<td height="25">
+						<SELECT SIZE="1" name="txtState" ID="Select2" runat="server">
+							<OPTION VALUE=""></OPTION>
+							<OPTION>Alabama</OPTION>
+							<OPTION>Alaska</OPTION>
+							<OPTION>Arizona</OPTION>
+							<OPTION>Arkansas</OPTION>
+							<OPTION>California</OPTION>
+							<OPTION>Colorado</OPTION>
+							<OPTION>Connecticut</OPTION>
+							<OPTION>Delaware</OPTION>
+							<OPTION>District of Columbia</OPTION>
+							<OPTION>Florida</OPTION>
+							<OPTION>Georgia</OPTION>
+							<OPTION>Hawaii</OPTION>
+							<OPTION>Idaho</OPTION>
+							<OPTION SELECTED>Illinois</OPTION>
+							<OPTION>Indiana</OPTION>
+							<OPTION>Iowa</OPTION>
+							<OPTION>Kansas</OPTION>
+							<OPTION>Kentucky</OPTION>
+							<OPTION>Louisiana</OPTION>
+							<OPTION>Maine</OPTION>
+							<OPTION>Maryland</OPTION>
+							<OPTION>Massachusetts</OPTION>
+							<OPTION>Michigan</OPTION>
+							<OPTION>Minnesota</OPTION>
+							<OPTION>Mississippi</OPTION>
+							<OPTION>Missouri</OPTION>
+							<OPTION>Montana</OPTION>
+							<OPTION>Nebraska</OPTION>
+							<OPTION>Nevada</OPTION>
+							<OPTION>New Hampshire</OPTION>
+							<OPTION>New Jersey</OPTION>
+							<OPTION>New Mexico</OPTION>
+							<OPTION>New York</OPTION>
+							<OPTION>North Carolina</OPTION>
+							<OPTION>North Dakota</OPTION>
+							<OPTION>Ohio</OPTION>
+							<OPTION>Oklahoma</OPTION>
+							<OPTION>Oregon</OPTION>
+							<OPTION>Pennsylvania</OPTION>
+							<OPTION>Rhode Island</OPTION>
+							<OPTION>South Carolina</OPTION>
+							<OPTION>South Dakota</OPTION>
+							<OPTION>Tennessee</OPTION>
+							<OPTION>Texas</OPTION>
+							<OPTION>Utah</OPTION>
+							<OPTION>Vermont</OPTION>
+							<OPTION>Virginia</OPTION>
+							<OPTION>Washington</OPTION>
+							<OPTION>West Virginia</OPTION>
+							<OPTION>Wisconsin</OPTION>
+							<OPTION>Wyoming</OPTION>
+						</SELECT>
+					</td>
+				</tr>
+				<tr>
+					<td height="25" style="WIDTH: 108px" align="right"><font face="Trebuchet MS">Zip Code</font></td>
+					<td height="25"><input type="text" size="20" maxlength="256" name="txtZipCode" ID="Text6" runat="server"></td>
+				</tr>
+				<tr>
+					<td height="25" style="WIDTH: 108px" align="right"><font face="Trebuchet MS">Phone</font></td>
+					<td height="25"><input type="text" size="35" maxlength="256" name="txtPhone" ID="Text7" runat="server"></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<P>
+							<input type="checkbox" value="Yes" name="chkEList" ID="Checkbox1" runat="server">
+							<font face="Trebuchet MS">Please enter me on your e-mail list.</font></P>
+						<p><input type="submit" value="Send Us Feedback" name="btnSubmit" ID="Submit1" runat="server">
+							<input type="reset" value="Clear Form" name="btnClear" ID="Reset1" runat="server"></p>
+					</td>
+				</tr>
+			</table>
+ 
+		</form>
+
+
+
+
+
+
+<script language="javascript">
+function writeout(){
+
+	// declare the variables 
+	
+var strHidden, strComment, strSource, strName, strEmail, strEList;
+var strStreet, strCity, strState, strZipCode;
+var strCountry, strPhone;
+
+	// get the values from the form fields
+	// and assign them to the variables
+	// using the document object
+	
+strHidden= document.form.hiddenID.value;
+strComment= document.form.txtComment.value;
+strSource= document.form.lstSource.value;
+strName= document.form.txtName.value;
+strEmail= document.form.txtEmail.value;
+strEList= document.form.chkEList.value;
+
+strStreet= document.form.txtStreet.value;
+strCity= document.form.txtCity.value;
+strState= document.form.txtState.value;
+strZipCode= document.form.txtZipCode.value;
+strPhone= document.form.txtPhone.value;
+
+	// write out the heading to the response page
+	
+	// Don't forget to change the double to single quotes
+	// for the property values within the tags!
+	// You have to "nest" the quotes
+	
+document.write("<html><head><title>Applebee Bookstore</title></head>");
+document.write("<body text='#003366'>");
+
+	// write out the table tag 
+	
+document.write("<table border='0' align='center' width='500' cellspacing='0' cellpadding='5'>");
+
+	// write out the first row & first cell tag
+	
+document.write("<tr><td colspan='2'>");
+
+	// add the heading
+	
+document.write("<h1 align='center'>Applebee Bookstore</h1>");
+	
+	// add the image
+	// add the paragraph tag will align the image in the center
+	// you also could have centered aligned the cell as well using the 
+	// align property of the cell (td) tag
+	
+document.write("<p align='center'>");
+document.write("<img border='0' src='images/bookshelf.gif' align='center' width='157' height='145'>");
+document.write("</p>");
+
+	// close the first row & start the second row
+	// and add the second heading
+	
+document.write("</td></tr>");
+document.write("<tr><td colspan='2'>");
+document.write("<h2 align='center'>Customer Feedback Form Results</h2>");
+document.write("</td></tr>");
+
+	// create the next row
+	
+document.write("<tr><td colspan='2'>");
+document.write("Thank you " + strName + " for your feedback.");
+
+	// use line break tags for each row
+	
+document.write("<br><br>");
+
+	// add a horizontal line for effect
+
+document.write("<hr size=2 color=#800000>");
+
+document.write("</td></tr>");
+
+document.write("<tr><td>");
+
+
+document.write("<b>Hidden Record: </b>#" + strHidden);
+document.write("<br>");
+document.write("<b>Comment: </b>" + strComment);
+document.write("<br>");
+document.write("<b>E-Mail Address: </b>" + strEmail);
+document.write("<br>");
+document.write("<b>Referred By: </b>" + strSource);
+document.write("<br>");
+document.write("<b>Sign Up: </b>" + strEList);
+
+document.write("</td><td>");
+
+document.write("<b>Name: </b>" + strName);
+document.write("<br>");
+document.write("<b>Street: </b>" + strStreet);
+document.write("<br>");
+document.write("<b>City: </b>" + strCity);
+document.write("<br>");
+document.write("<b>State: </b>" + strState);
+document.write("<br>");
+document.write("<b>Zip Code: </b>" + strZipCode);
+ 
+ 	// closing row and table tags
+ 	
+document.write("</td></tr>");
+document.write("</table>");
+
+	// add the closing html tags
+	// remember this is a new document being rewritten
+	
+document.write("</body></html>");
+}
+		</script>
+	</body>
+</html>

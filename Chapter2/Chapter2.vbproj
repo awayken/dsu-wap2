@@ -1,0 +1,275 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{29FE85C0-1E55-40D1-8457-9FF690D06D6D}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Chapter2"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "Chapter2"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ch2Case1.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch2Proj3.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch2Proj4.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch2Proj4.aspx.vb"
+                    DependentUpon = "Ch2Proj4.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ch2Proj4.aspx.resx"
+                    DependentUpon = "Ch2Proj4.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Ch2Proj4UC.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch2Proj4UC.ascx.vb"
+                    DependentUpon = "Ch2Proj4UC.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ch2Proj4UC.ascx.resx"
+                    DependentUpon = "Ch2Proj4UC.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Contact.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Contact.aspx.vb"
+                    DependentUpon = "Contact.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Contact.aspx.resx"
+                    DependentUpon = "Contact.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "feedback.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "header.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "header.ascx.vb"
+                    DependentUpon = "header.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "header.ascx.resx"
+                    DependentUpon = "header.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "home.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "home.aspx.vb"
+                    DependentUpon = "home.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "home.aspx.resx"
+                    DependentUpon = "home.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\21.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\22.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\23.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\26.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\27.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\bullet.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Ch2Case1-pop.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Ch2Case1-shopping.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Ch2Case1-store.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\CustomerSupport.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GiftFinder.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\header.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\menu.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\waterford.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

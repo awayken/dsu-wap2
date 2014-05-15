@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>New Page 3</title>
+
+<script language="javascript">
+function login(){
+	var strUserName, strPassword 
+	strUserName = document.frmLogin.txtUserName.value;
+	strPassword = document.frmLogin.txtPassword.value;
+	switch (strUserName) {
+	case "manager" :
+		if (strPassword == "pwd") {
+			location.href="admin.htm";
+			break;
+			} 
+		else {
+			location.href="adminlogin.htm";
+			break;
+		}
+	case "admin" :	
+		if (strPassword == "pass"){
+			location.href="admin.htm";
+			break;
+			}
+		else {
+			location.href="adminlogin.htm";
+			break;
+		}
+	 
+	default:
+		location.href="adminlogin.htm";
+		break;
+	}
+}
+</script>
+
+</head>
+
+<body text="#660033">
+
+<h1 align="center">Night Crawlers </h1>
+<h2 align="center">IT Department Login Page</h2>
+<p align="center"><img border="0" src="images/computer.gif" width="202" height="142"></p>
+<div align="center">
+  <center>
+  <table border="0" width="300" cellspacing="0" cellpadding="5">
+    <tr>
+      <td width="100%">
+
+	<form name=frmLogin method="post" action="javascript:void(0);">
+	<p><font face="Trebuchet MS">UserName:&nbsp;&nbsp;&nbsp;</font>
+	<input type="text" name="txtUserName" size="20"></p>
+  	<p><font face="Trebuchet MS">Password:&nbsp;&nbsp;&nbsp;&nbsp;</font>
+  	<input type="password" name="txtPassword" size="20"></p>
+  	<p>
+		<input type="button" onclick="login();" value="Login" name="btnLogin">
+		<input type="reset" value="Clear Form" name="btnClear"></p>
+
+	</form>
+
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

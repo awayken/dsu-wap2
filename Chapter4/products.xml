@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="listproducts.xsl" ?>
+<productlist>
+	<product>
+		<code>978-979-53-00</code>
+		<name>Waterford Crystal Business Card Holder</name>
+		<price>99.00</price>
+		<category>Waterford</category>
+		<image>529.gif</image>
+		<rating>3</rating>
+	</product>
+	<product>
+		<code>0911</code>
+		<name>Belleek Colleen Vase</name>
+		<price>34.00</price>
+		<category>Belleek</category>
+		<image>566.gif</image>
+		<rating>2</rating>
+	</product>
+	<product>
+		<code>0090</code>
+		<name>Cashill Clock by Belleek</name>
+		<price>110.00</price>
+		<category>Belleek</category>
+		<image>555.gif</image>
+		<rating>4</rating>
+	</product>
+	<product>
+		<code>Carrigaline-B-7000</code>
+		<name>Large Shamrock Tea Pot</name>
+		<price>54.00</price>
+		<category>Pottery</category>
+		<image>661.gif</image>
+		<rating>4</rating>
+	</product>
+	<product>
+		<code>NM-largemug-cat</code>
+		<name>Nicholas Mosse Mug - Cat</name>
+		<price>34.00</price>
+		<category>Pottery</category>
+		<image>715.gif</image>
+		<rating>3</rating>
+	</product>
+	<product>
+		<code>BB-cat-bowl</code>
+		<name>Belinda Bradshaw Cat Bowl</name>
+		<price>22.00</price>
+		<category>Belleek Vases</category>
+		<image>658.gif</image>
+		<rating>4</rating>
+	</product>
+	<product>
+		<code>WM-1956</code>
+		<name>Bodhran with Trinity Design 8 inch</name>
+		<price>40.00</price>
+		<category>Music</category>
+		<image>794.gif</image>
+		<rating>2</rating>
+	</product>
+	<product>
+		<code>CELT-9006</code>
+		<name>Traditional Music of Ireland</name>
+		<price>19.95</price>
+		<category>Music</category>
+		<image>803.gif</image>
+		<rating>2</rating>
+	</product>
+</productlist>

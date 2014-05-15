@@ -1,0 +1,66 @@
+<html><head>
+<script language="vbscript">
+function doit()
+	document.all.MainContent.style.backgroundColor=document.form.txtTableColor.value
+	document.all.msg.innerhtml="<H2 align=center>Welcome " & document.form.txtUser.value & "</h2>"
+	document.logoImg.src=document.form.animal.value
+	document.bgColor=document.form.txtBgColor.value
+	document.fgColor=document.form.txtFgColor.value 
+end function
+</script>
+
+<title></title>
+</head>
+<body>
+
+<form name="form" method="post" action="javascript:void(0);">
+   
+  <table align="center" border="0" width="400" cellspacing="0" cellpadding="4" ID="MainContent">
+    <tr>
+      <td align="center" width="390" colspan="2">
+        <h1>Growlite Marketing</h1>
+	<img border="0" name="logoImg" src="images/turtle.gif" width="100" height="57">
+      </td>
+    </tr>
+    <tr>
+      <td width="390" colspan="2">
+        <h2 align="center">Member Preferences</h2>
+	<DIV ID="msg"></DIV>
+      </td>
+    </tr>
+    <tr>
+      <td width="196" align="center"><font face="Trebuchet MS">User Name</font></td>
+      <td width="184" align="center"><input type="text" name="txtUser" size="20"></td>
+    </tr>
+   <tr>
+      <td width="196" align="center"><font face="Trebuchet MS">Table Color</font></td>
+      <td width="184" align="center"><input value = "green" type="text" name="txtTableColor" size="20"></td>
+    </tr>
+   <tr>
+      <td width="196" align="center"><font face="Trebuchet MS">Background Color</font></td>
+      <td width="184" align="center"><input value = "white" type="text" name="txtBgColor" size="20"></td>
+    </tr>
+    <tr>
+      <td width="196" align="center"><font face="Trebuchet MS">Text Color</font></td>
+      <td width="184" align="center"><input value = "black" type="text" name="txtFgColor" size="20"></td>
+    </tr>
+     
+    <tr>
+      <td width="196" align="center"><font face="Trebuchet MS">Favorite Logo</font></td>
+      <td width="184">
+        <p align="center"><select size="1" name="animal">
+          <option value="images/turtle.gif">Turtle</option>
+          <option value="images/zebra.gif">Zebra</option>
+          <option value="images/ladybug.gif">Lady Bug</option>
+          <option value="images/swan.gif">Swan</option>
+        </select></td>
+    </tr>
+    <tr>
+      <td width="196" align="center"></td>
+      <td width="184">
+        <p align="center"><input type="submit" onClick="doit()" value="Submit" name="btnSubmit"></td>
+    </tr>
+  </table> 
+</form> 
+</body>
+</html>

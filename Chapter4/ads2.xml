@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>	
+	<Ad>
+		<ImageUrl>images/547.gif</ImageUrl>
+		<NavigateUrl>getproduct.aspx?id=547.jpg</NavigateUrl>
+		<AlternateText>Waterford Crystal Shamrock Paperweight</AlternateText>
+		<Impressions>10</Impressions>
+		<Keyword>Waterford</Keyword>
+		<Price>99.00</Price>
+		<PriceRange>Medium Price</PriceRange>
+	</Ad> 
+	<Ad>
+		<ImageUrl>images/529.gif</ImageUrl>
+		<NavigateUrl>getproduct.aspx?id=529.jpg</NavigateUrl>
+		<AlternateText>Waterford Crystal Business Card Holder</AlternateText>
+		<Impressions>10</Impressions>
+		<Keyword>Waterford</Keyword>
+		<Price>59.00</Price>
+		<PriceRange>Medium Price</PriceRange>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/566.gif</ImageUrl>
+		<NavigateUrl>getproduct.aspx?id=566.jpg</NavigateUrl>
+		<AlternateText>Belleek Colleen Vase</AlternateText>
+		<Impressions>10</Impressions>
+		<Keyword>Belleek</Keyword>
+		<Price>34.00</Price>
+		<PriceRange>Low Price</PriceRange>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/555.gif</ImageUrl>
+		<NavigateUrl>getproduct.aspx?id=555.jpg</NavigateUrl>
+		<AlternateText>Cashill Clock by Belleek</AlternateText>
+		<Impressions>40</Impressions>
+		<Keyword>Belleek</Keyword>
+		<Price>110.00</Price>
+		<PriceRange>High Price</PriceRange>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/661.gif</ImageUrl>
+		<NavigateUrl>getproduct.aspx?id=661.jpg</NavigateUrl>
+		<AlternateText>Large Shamrock Tea Pot</AlternateText>
+		<Impressions>10</Impressions>
+		<Keyword>Pottery</Keyword>
+		<Price>54.00</Price>
+		<PriceRange>Medium Price</PriceRange>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/715.gif</ImageUrl>
+		<NavigateUrl>getproduct.aspx?id=715.jpg</NavigateUrl>
+		<AlternateText>Nicholas Mosse Mug - Cat</AlternateText>
+		<Impressions>10</Impressions>
+		<Keyword>Pottery</Keyword>
+		<Price>34.00</Price>
+		<PriceRange>Low Price</PriceRange>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/658.gif</ImageUrl>
+		<NavigateUrl>getproduct.aspx?id=658.jpg</NavigateUrl>
+		<AlternateText>Belinda Bradshaw Cat Bowl</AlternateText>
+		<Impressions>10</Impressions>
+		<Keyword>Pottery</Keyword>
+		<Price>22.00</Price>
+		<PriceRange>Low Price</PriceRange>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/794.gif</ImageUrl>
+		<NavigateUrl>getproduct.aspx?id=794.jpg</NavigateUrl>
+		<AlternateText>Bodhran with Trinity Design 8 inch</AlternateText>
+		<Impressions>40</Impressions>
+		<Keyword>Music</Keyword>
+		<Price>40.00</Price>
+		<PriceRange>Low Price</PriceRange>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/803.gif</ImageUrl>
+		<NavigateUrl>getproduct.aspx?id=803.jpg</NavigateUrl>
+		<AlternateText>Traditional Music of Ireland</AlternateText>
+		<Impressions>40</Impressions>
+		<Keyword>Music</Keyword>
+		<Price>19.95</Price>
+		<PriceRange>Low Price</PriceRange>
+	</Ad>
+</Advertisements>

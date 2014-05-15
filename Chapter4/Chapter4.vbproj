@@ -1,0 +1,841 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{202D6DF9-F674-468D-B9A2-AFEF0C8DB151}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Chapter4"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "Chapter4"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AdRotator.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AdRotator.aspx.vb"
+                    DependentUpon = "AdRotator.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdRotator.aspx.resx"
+                    DependentUpon = "AdRotator.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ads.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ads2.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Calendar.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Calendar.aspx.vb"
+                    DependentUpon = "Calendar.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Calendar.aspx.resx"
+                    DependentUpon = "Calendar.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Ch4Case2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Case2.aspx.vb"
+                    DependentUpon = "Ch4Case2.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ch4Case2.aspx.resx"
+                    DependentUpon = "Ch4Case2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Ch4Case2.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Case2.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Case3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Case3.aspx.vb"
+                    DependentUpon = "Ch4Case3.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ch4Case3.aspx.resx"
+                    DependentUpon = "Ch4Case3.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Ch4Case3.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Case3.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Case3_XSL2.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Case4.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Case6.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Case6.aspx.vb"
+                    DependentUpon = "Ch4Case6.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ch4Case6.aspx.resx"
+                    DependentUpon = "Ch4Case6.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Ch4Case7Login.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Case7Login.aspx.vb"
+                    DependentUpon = "Ch4Case7Login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ch4Case7Login.aspx.resx"
+                    DependentUpon = "Ch4Case7Login.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Ch4Proj2.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Proj3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Proj3.aspx.vb"
+                    DependentUpon = "Ch4Proj3.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ch4Proj3.aspx.resx"
+                    DependentUpon = "Ch4Proj3.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Ch4Proj3.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Proj3.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Proj4.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Ch4Proj4.aspx.vb"
+                    DependentUpon = "Ch4Proj4.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ch4Proj4.aspx.resx"
+                    DependentUpon = "Ch4Proj4.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "exam1_1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "exam1_1.aspx.vb"
+                    DependentUpon = "exam1_1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "exam1_1.aspx.resx"
+                    DependentUpon = "exam1_1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "exam2_2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "exam2_2.aspx.vb"
+                    DependentUpon = "exam2_2.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "exam2_2.aspx.resx"
+                    DependentUpon = "exam2_2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "exam2_2.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "getproduct.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "getproduct.aspx.vb"
+                    DependentUpon = "getproduct.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "getproduct.aspx.resx"
+                    DependentUpon = "getproduct.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "inventory.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "inventory.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "inventory.xsx"
+                    DependentUpon = "inventory.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "listproducts.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "listproducts.aspx.vb"
+                    DependentUpon = "listproducts.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "listproducts.aspx.resx"
+                    DependentUpon = "listproducts.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "listproducts.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "products.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "uploadfile.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "uploadfile.aspx.vb"
+                    DependentUpon = "uploadfile.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "uploadfile.aspx.resx"
+                    DependentUpon = "uploadfile.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "uploadfile.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "uploadtest.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.vb"
+                    DependentUpon = "WebForm1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.resx"
+                    DependentUpon = "WebForm1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <Folder RelPath = "Ch4Case7\" />
+                <File
+                    RelPath = "images\15.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\16.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\17.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\18.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\19.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\20.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\4a.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\4b.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\4c.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\4d.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\4e.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\4f.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\4g.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\529.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\529.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\547.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\547.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\550.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\550.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\551.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\551.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\552.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\552.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\553.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\554.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\554.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\555.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\555.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\556.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\556.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\557.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\557.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\559.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\559.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\560.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\560.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\561.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\561.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\563.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\563.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\564.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\564.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\565.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\565.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\566.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\566.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\567.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\567.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\568.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\568.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\569.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\569.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\570.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\570.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\571.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\571.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\572.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\572.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\573.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\573.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\574.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\574.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\575.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\575.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\576.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\576.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\578.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\578.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\579.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\579.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\580.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\580.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\581.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\581.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\582.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\582.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\583.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\583.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\584.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\584.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\585.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\585.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\658.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\658.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\661.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\661.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\715.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\715.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\794.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\794.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\803.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\803.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\clover.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\clover_blue.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\clover_blue3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\clover_green4.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\clover_red.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\clover_red2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\giftfinder.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\header.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\menu.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\upload.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\uploadheader.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\uploadimage.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\waterfordgifts.jpg"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "Uploads\" />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<inventory xmlns="http://tempuri.org/inventory.xsd">
+	<product>
+		<code>978-979-53-00</code>
+		<name>Waterford Crystal Business Card Holder</name>
+		<instock>5</instock>
+		<reorderlevel>10</reorderlevel>
+		<onorder>10</onorder>
+	</product>
+	<product>
+		<code>0911</code>
+		<name>Belleek Colleen Vase</name>
+		<instock>7</instock>
+		<reorderlevel>10</reorderlevel>
+		<onorder>10</onorder>
+	</product>
+	<product>
+		<code>0090</code>
+		<name>Cashill Clock by Belleek</name>
+		<instock>12</instock>
+		<reorderlevel>10</reorderlevel>
+		<onorder>0</onorder>
+	</product>
+	<product>
+		<code>Carrigaline-B-7000</code>
+		<name>Large Shamrock Tea Pot</name>
+		<instock>14</instock>
+		<reorderlevel>10</reorderlevel>
+		<onorder>0</onorder>
+	</product>
+	<product>
+		<code>NM-largemug-cat</code>
+		<name>Nicholas Mosse Mug - Cat</name>
+		<instock>6</instock>
+		<reorderlevel>10</reorderlevel>
+		<onorder>10</onorder>
+	</product>
+	<product>
+		<code>BB-cat-bowl</code>
+		<name>Belinda Bradshaw Cat Bowl</name>
+		<instock>12</instock>
+		<reorderlevel>10</reorderlevel>
+		<onorder>0</onorder>
+	</product>
+	<product>
+		<code>WM-1956</code>
+		<name>Bodhran with Trinity Design 8 inch</name>
+		<instock>15</instock>
+		<reorderlevel>10</reorderlevel>
+		<onorder>0</onorder>
+	</product>
+	<product>
+		<code>CELT-9006</code>
+		<name>Traditional Music of Ireland</name>
+		<instock>13</instock>
+		<reorderlevel>10</reorderlevel>
+		<onorder>0</onorder>
+	</product>
+	<product>
+		<code>387-463-55-00</code>
+		<name>Waterford Crystal Shamrock Paperweight</name>
+		<instock>9</instock>
+		<reorderlevel>10</reorderlevel>
+		<onorder>10</onorder>
+	</product>
+</inventory>

@@ -1,0 +1,113 @@
+Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'Put user code to initialize the page here
+        ShowUserAuthenticationControls()
+        HideFileUploadControls()
+    End Sub
+
+    Function ShowUserAuthenticationControls()
+        ' Show the user authentication controls
+        lblUsername.Visible = True
+        lblPassword.Visible = True
+        txtUsername.Visible = True
+        txtPassword.Visible = True
+        btnSubmit.Visible = True
+        btnReUpload.Visible = False
+    End Function
+
+    Function HideUserAuthenticationControls()
+        ' Hide the user authentication controls
+        lblUsername.Visible = False
+        lblPassword.Visible = False
+        txtUsername.Visible = False
+        txtPassword.Visible = False
+        btnSubmit.Visible = False
+        btnReUpload.Visible = False
+    End Function
+
+    Function ShowFileUploadControls()
+        'Hide the user authentication controls
+        uploadFilePath.Visible = True
+        txtFileName.Visible = True
+        btnImage.Visible = True
+        lblFilename.Visible = True
+        lblTitle.InnerHtml = "Upload an Image"
+    End Function
+
+    Function HideFileUploadControls()
+        'Hide the user authentication controls
+        uploadFilePath.Visible = False
+        txtFileName.Visible = False
+        lblFilename.Visible = False
+        btnImage.Visible = False
+        HyperLink1.Visible = False
+    End Function
+
+    Function ResetUserAuthenticationControls()
+        'Reset the user authentication controls
+        lblTitle.InnerHtml = "Upload an Image"
+        txtUsername.Value = ""
+        txtPassword.Value = ""
+    End Function
+
+    Private Sub btnImage_ServerClick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnImage.ServerClick
+        If txtFileName.Value = "" Then
+            lblTitle.InnerHtml = "Error: You must enter a file name."
+            HideUserAuthenticationControls()
+            ShowFileUploadControls()
+            Return
+        End If
+        If Not (uploadFilePath.PostedFile Is Nothing) Then
+            Try
+
+
+                ' Enter the code below to upload the file
+
+                 
+
+
+
+
+
+
+
+
+
+
+                lblTitle.InnerHtml = "File uploaded successfully"
+
+                lblMessage.InnerHtml = "Your file was uploaded successfully to <br>" & _
+                "<b>" & strFilePath & "\" & _
+                txtFileName.Value & "</b><br>on the Web server."
+
+                HideFileUploadControls()
+                HideUserAuthenticationControls()
+                lblMessage.Visible = True
+                btnReUpload.Visible = True
+
+                HyperLink1.NavigateUrl = "http://localhost/chapter4/" & txtFileName.Value
+                HyperLink1.Visible = True
+
+            Catch exc As Exception
+                lblTitle.InnerHtml = "Error saving file"
+            End Try
+        End If
+    End Sub
+
+    Private Sub btnSubmit_ServerClick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSubmit.ServerClick
+        If ((txtUsername.Value = "Course") And (txtPassword.Value = "Technology")) Then
+            ShowFileUploadControls()
+            HideUserAuthenticationControls()
+        Else
+            lblTitle.InnerHtml = "Error logging in"
+            Return
+        End If
+    End Sub
+
+    Private Sub btnReUpload_ServerClick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReUpload.ServerClick
+        ResetUserAuthenticationControls()
+        HideUserAuthenticationControls()
+        ShowFileUploadControls()
+        txtFileName.Value = ""
+        btnReUpload.Visible = False
+        lblMessage.Visible = False
+    End Sub

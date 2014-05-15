@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ProductCategories>
+	<Category>
+		<ImageUrl>15.jpg</ImageUrl>
+		<CategoryID>15</CategoryID>
+		<CategoryName>Belleek Frames &amp; Clocks</CategoryName>
+	</Category>
+	<Category>
+		<ImageUrl>16.jpg</ImageUrl>
+		<CategoryID>16</CategoryID>
+		<CategoryName>Belleek Decorated Plates</CategoryName>
+	</Category>
+	<Category>
+		<ImageUrl>17.jpg</ImageUrl>
+		<CategoryID>17</CategoryID>
+		<CategoryName>Belleek Vases</CategoryName>
+	</Category>
+	<Category>
+		<ImageUrl>18.jpg</ImageUrl>
+		<CategoryID>18</CategoryID>
+		<CategoryName>Claddagh Theme by Belleek </CategoryName>
+	</Category>
+	<Category>
+		<ImageUrl>19.jpg</ImageUrl>
+		<CategoryID>19</CategoryID>
+		<CategoryName>Belleek Tabletop Pieces</CategoryName>
+	</Category>
+	<Category>
+		<ImageUrl>20.jpg</ImageUrl>
+		<CategoryID>20</CategoryID>
+		<CategoryName>Belleek Gifts for Women</CategoryName>
+	</Category>
+</ProductCategories>

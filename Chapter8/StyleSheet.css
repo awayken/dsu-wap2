@@ -1,0 +1,106 @@
+.MyStyle
+{
+	FONT-FAMILY: Trebuchet MS, Verdana;
+    FONT-SIZE: X-Small;
+    BACKGROUND-COLOR: Ivory;
+    color:	DarkSlateGray;
+    text-align: Right;  
+}
+.MyStyleLeft
+{
+	FONT-FAMILY: Trebuchet MS, Verdana;
+    FONT-SIZE:  X-Small;
+    BACKGROUND-COLOR: White;
+    color:	DarkSlateGray;
+    text-align:left;  
+}
+.MyStyleLeftBold
+{
+	FONT-FAMILY: Trebuchet MS, Verdana;
+    FONT-SIZE:  X-Small;
+    BACKGROUND-COLOR: White;
+    color:	DarkSlateGray;
+    text-align:left;  
+    font-weight:bold;
+}
+
+.MyStyleHead
+{  
+	FONT-FAMILY: Trebuchet MS, Verdana;
+    FONT-SIZE: X-Small;
+    BACKGROUND-COLOR: DarkSlateGray;
+    color:	White;
+    text-align: Center;  
+    font-weight:bold;
+}
+.MyStyleCenter
+{
+	FONT-FAMILY: Trebuchet MS, Verdana;
+    FONT-SIZE: X-Small;
+    BACKGROUND-COLOR: Ivory;
+    color:	DarkSlateGray;
+    text-align: Center;  
+}
+.MyStyleFooter
+{
+	FONT-FAMILY: Trebuchet MS, Verdana;
+    FONT-SIZE: X-Small;
+    BACKGROUND-COLOR: DarkSlateGray;
+    color:	White;
+    text-align: Right;
+    font-weight:bold;  
+}
+.MyStyleFooterCenter
+{
+	FONT-FAMILY: Trebuchet MS, Verdana;
+    FONT-SIZE: X-Small;
+    BACKGROUND-COLOR: DarkSlateGray;
+    color:	White;
+    text-align: Center; 
+    font-weight:bold; 
+}
+
+.BasicText
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #336666;
+	line-height: 16px;
+	font-family: Verdana;
+	text-decoration: none;
+}
+
+A.MenuUnselected, A.MenuUnselected:link, A.MenuUnselected:visited
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #336666;
+	line-height: 16px;
+	font-family: Verdana;
+	text-decoration: none;
+}
+
+A.MenuUnselected:hover
+{
+    color: red;
+    font-size: .8em;
+    text-decoration: underline;
+}
+
+A.MenuSelected
+{
+    color: red;
+    font-family: Verdana;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+A.MenuSelected:hover
+{
+    color: red;
+    font-size: .8em;
+    font-family: Verdana;
+    text-decoration: none;
+}

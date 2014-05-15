@@ -1,0 +1,43 @@
+body
+{
+}
+table
+{
+	color: blue;
+	font-style: italic;
+	font-family: Verdana;
+}
+ul
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	color: blue;
+	padding-top: 5px;
+	font-family: Verdana;
+}
+h1
+{
+	color: blue;
+	font-family: Verdana;
+	font-variant: small-caps;
+}
+h2
+{
+	font-weight: bold;
+	color: blue;
+	font-family: Verdana;
+}
+hr
+{
+	color: blue;
+	font-family: Verdana;
+	background-color: silver;
+}
+.Ch2Proj3
+{
+	font-weight: bold;
+	color: green;
+	font-family: Arial;
+	font-variant: small-caps;
+}

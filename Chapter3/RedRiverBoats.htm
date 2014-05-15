@@ -1,0 +1,102 @@
+<html><head>
+<title>RedRiver Boats</title>
+</head>
+
+<body text="#003366">
+
+<div align="center">
+  <center>
+  <table align="center" border="0" width="750" cellspacing="0" cellpadding="5">
+    <tr>
+      <td width="738" colspan="2">
+        <h1 align="center">Red River Boats</h1>
+        <p align="center">
+     <img border="0" src="images/boat.gif" width="119" height="126"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="738" colspan="2">
+        <h2 align="center">Company Rolodex - Play it again!</h2>
+      </td>
+    </tr>
+    <tr>
+      <td width="738" colspan="2">
+        <p align="center"><font face="Trebuchet MS"><b>This is a list of
+        employees in our store.</b></font></p>
+        <hr color="#008000" width="50%">
+      </td>
+    </tr>
+    <tr>
+      <td width="171"></td>
+      <td width="238"><font face="Trebuchet MS" size="2">
+
+<script language="vbscript">
+	// create the array object
+	
+	// for vbscript use dim instead of var
+	// don't use the keyword new or array
+	// remove the semi-colon
+	
+dim emp(19)
+
+	// add the employee names in the array
+	
+	// for vbscript remove the semi-colons
+	// change the [] to ()
+
+emp(0) = "John Smythe"
+emp(1) = "James Thibold"
+emp(2) = "Gretta Vandamere"
+emp(3) = "Georgette Wittenborn"
+emp(4) = "Julia Feld"
+emp(5) = "Carolyn Frederick"
+emp(6) = "May Clohisy"
+emp(7) = "Millie Jerva"
+emp(8) = "Trisha Storm"
+emp(9) = "Steve Flanders"
+emp(10) = "Mark Jurish"
+emp(11) = "Ken O'Reilly"
+emp(12) = ""
+emp(13) = ""
+emp(14) = ""
+emp(15) = "Christine Ahern"
+emp(16) = ""
+emp(17) = ""
+emp(18) = "Erin North"
+emp(19) = ""
+
+	// write out the values from the array
+	
+	// if you use a paragraph tag instead of a line break tag
+	// then you will not see any spaces between names
+	// if you use the line break tag
+	// you will see extra blank spaces where there are no names
+	// in the array
+	
+	// another way is to create a for next loop
+	// and to test if the value is empty or null
+	// which is covered in another chapter
+	
+	// for vbscript remove the semi-colons
+	// change the [] to ()
+
+for i = 0 to 19
+	if emp(i) <> "" then
+		document.write("<input type=radio name=emp value='")
+		document.write emp(i)
+		document.write("'>")
+		document.write emp(i)
+		document.write("<br>")
+	else
+	end if
+next 
+
+</script>
+ 
+      </font></td> 
+      </tr> </table>
+  </center>
+</div>
+  
+</body>
+</html>
